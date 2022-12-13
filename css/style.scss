@@ -1,0 +1,54 @@
+section.login-section {
+    height: 100vh;
+    background-image: url("../images/section-background.png");
+    background-size: cover;
+    background-position: center;
+    div.login-container {
+        background-image: url("../images/login-background.png");
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+        font-family: "Barlow", sans-serif;
+        .title {
+            font-weight: 800;
+        }
+        .campus {
+            font-weight: 600;
+        }
+        img.logo {
+            height: 18rem;
+            width: 18rem;
+        }
+        form {
+            h3 {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+header.header {
+    h3 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 800;
+    }
+    img.header-logo {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+section.admin-section {
+    font-family: "Barlow", sans-serif;
+    h3 {
+        font-weight: 600;
+    }
+    button.nav-link {
+        text-align: start;
+    }
+    height: 100vh;
+}
+
+.student-profile-section {
+    height: 100vh;
+}
